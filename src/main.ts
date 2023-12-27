@@ -174,10 +174,40 @@
 
 // console.log(square(2));
 
-function mathOp(x: number, y: number, operation: (a: number, b: number) => number): number{
+// function mathOp(x: number, y: number, operation: (a: number, b: number) => number): number{
  
-    const result = operation(x, y);
-    return result;
-}
-console.log(mathOp(10, 20, (x, y) => x + y)); // 30 
-console.log(mathOp(10, 20, (x, y) => x * y)); // 200 
+//     const result = operation(x, y);
+//     return result;
+// }
+// console.log(mathOp(10, 20, (x, y) => x + y)); // 30 
+// console.log(mathOp(10, 20, (x, y) => x * y)); // 200
+
+// const x: ReadonlyArray<string> = [];
+
+
+// const numbers = [1,2,3,4,5,6] as const
+
+
+
+// interface IUser{
+//     make():void; 
+//     name:string;
+// }
+
+// class User implements IUser{
+//     constructor() {
+//     }
+//     name: string;
+
+//     make(): void {
+//         console.log("make");
+//     }
+// }
+
+// let u = new User();
+// u.make();
+
+// import myModuleDefaultExport from './myModule.js';
+
+// console.log(myModuleDefaultExport);
+// console.log(myModuleDefaultExport);
