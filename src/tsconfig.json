@@ -1,9 +1,8 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "ES2020",
         "removeComments": true,
         "outDir": "js",
-        "sourceMap": true,
-        "outFile": "main.js"
+        "sourceMap": true
     }
 }
